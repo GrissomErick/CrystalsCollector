@@ -1,2 +1,2 @@
-# week-4-game
-UNC Coding Boot Camp - jQuery Assignment - CrystalsCollector Game
+# 
+UNC Coding Boot CampjQuery Assignment - CrystalsCollector Game
