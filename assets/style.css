@@ -1,0 +1,90 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-repeat: repeat;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.textbox-text {
+  color: darkred;
+  padding: 5px;
+  margin: 0px;
+}
+
+#header {
+  height: 50px;
+  margin: 25px;
+  width: 25%;
+  margin-bottom: 30px;
+}
+
+#header-text {
+  background-color: darkorange;
+  color: white;
+  margin: auto auto;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#textbox {
+  width: 50%;
+  margin: 25px;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  background-color: peachpuff;
+  padding: 5px;
+}
+
+#stats {
+  width: 50%;
+  height: 100px;
+  position: relative;
+}
+
+#random-number {
+  width: 30%;
+  background-color: mediumseagreen;
+  margin-left: 25px;
+  margin-right: 10px;
+  height: 100px;
+  float: left;
+  font-size: 30px;
+}
+
+#results {
+  width: 20%;
+  background-color: skyblue;
+  height: 100px;
+  float: left;
+  padding-top: 20px;
+}
+
+#crystals {
+  width: 100%;
+  margin: 25px;
+}
+
+#total-title {
+  background-color: teal;
+  width: 30%;
+  margin-left: 25px;
+  color: white;
+  top-padding: 20px;
+  height: 20px
+}
+
+#total {
+  background-color: teal;
+  width: 30%;
+  height: 100px;
+  margin: 25px;
+  font-size: 30px;
+  color: white;
+}

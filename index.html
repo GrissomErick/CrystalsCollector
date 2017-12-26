@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="assets/style.css">
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <title>Crystals Collector</title>
+    </head>
+    
+    <body>
+      <div id="gameBoard">
+        <div id="header">
+          <h1 id="header-text">Crystals Collector!</h1>
+        </div>
+        <div id="textbox">
+          <p class="textbox-text">You will be given a random number at the start of the game</p>
+          <br>
+          <p class="textbox-text">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+          <br>
+          <p class="textbox-text">You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+          <br>
+          <p class="textbox-text">The value of each crystal is hidden from you until you click on it.</p>
+          <br>
+          <p class="textbox-text">Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <div id="stats">
+          <div id="random-number">
+            <span id="random"></span>
+          </div>
+          <div id="results">
+            <p>Wins: <span id="win"></span></p>
+            <p>Losses: <span id="loss"></span></p>
+          </div>
+        </div>
+        <div id="crystals">
+          <span id="yellow"><img src="images/yellow.png" alt="yellow crystal" /></span>
+          <span id="red"><img src="images/red.png" alt="red crystal" /></span>
+          <span id="green"><img src="images/green.png" alt="green crystal" /></span>
+          <span id="blue"><img src="images/blue.png" alt="blue crystal"/></span>
+        </div>
+        <div id="total-title">
+          <h3>Your total score is:</h3></div>
+        <div id="total"></div>
+      </div>
+    </body>
+    <script type="text/javascript" src='assets/game.js'></script>
+
+</html>
